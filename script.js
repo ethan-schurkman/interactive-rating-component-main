@@ -1,7 +1,5 @@
 let activeRating = null;
 
-document.querySelector('.thank-you').style.display = 'none';
-
 const ratings = document.querySelectorAll('.rating');
 ratings.forEach((rating) => {
     rating.addEventListener('click', () => {
