@@ -6,6 +6,7 @@
 
 :root {
     font-size: 15px;
+    font-family: 'Overpass', sans-serif;
     --primary-orange: hsl(25, 97%, 53%);
     --neutral-white: hsl(0, 0%, 100%);
     --neutral-lt-grey: hsl(217, 12%, 63%);
@@ -26,13 +27,37 @@ p {
 }
 
 body {
-    font-family: 'Overpass', sans-serif;
     background: var(--neutral-very-dk-blue);
     color: var(--neutral-white);
-    height: 100vh;
+}
+
+main {
+    min-height: 92vh;
+    margin-bottom: 3vh;
     display: flex;
     justify-content: center;
+    align-items: center
+}
+
+footer {
+    height: 5vh;
+    color: var(--neutral-white);
+    text-align: center;
+    font-size: 0.75rem;
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: var(--neutral-white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: var(--neutral-white);
+    text-decoration: none;
 }
 
 .card {
@@ -122,9 +147,18 @@ body {
     margin-bottom: 2rem;
 }
 
+.attribution {
+    width: 26.25rem;
+}
+
 @media (max-width: 450px) {
     .card {
         width: 20rem;
         padding: 1rem;
+    }
+
+    .attribution {
+        font-size: 0.5rem;
+        width: 20rem;
     }
 }
