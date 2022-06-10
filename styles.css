@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 15px;
+    --primary-orange: hsl(25, 97%, 53%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-lt-grey: hsl(217, 12%, 63%);
+    --neutral-md-grey: hsl(216, 12%, 54%);
+    --neutral-dk-blue: hsl(213, 19%, 18%);
+    --neutral-very-dk-blue: hsl(216, 12%, 8%);
+    --neutral-background-blue: rgba(124, 135, 152, 0.1);
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+p {
+    color: var(--neutral-lt-grey);
+    line-height: 1.75;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background: var(--neutral-very-dk-blue);
+    color: var(--neutral-white);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 26.25rem;
+    background: var(--neutral-dk-blue);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.star {
+    background: rgba(124, 135, 152, 0.1);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.content {
+    margin-bottom: 2rem;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--neutral-background-blue);
+    margin-bottom: 2rem;
+    color: var(--neutral-lt-grey);
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease-in;
+}
+
+.rating:hover {
+    background:var(--neutral-lt-grey);
+    color: white;
+}
+
+.rating.active {
+    background: var(--primary-orange);
+    color: var(--neutral-white);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background: var(--primary-orange);
+    border: none;
+    border-radius: 25px;
+    color: var(--neutral-white);
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.submit-btn:hover {
+    background: var(--neutral-white);
+    color: var(--primary-orange);
+}
+
+.thank-you {
+    text-align: center;
+}
+
+.illustration-thank-you {
+    margin-bottom: 2rem;
+}
+
+.final-rating {
+    color: var(--primary-orange);
+    background: var(--neutral-background-blue);
+    border-radius: 20px;
+    padding: 0.25rem;
+    width: 11rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 450px) {
+    .card {
+        width: 20rem;
+        padding: 1rem;
+    }
+}
