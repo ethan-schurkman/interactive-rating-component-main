@@ -57,4 +57,4 @@ I often harp on the question of am I developing my CSS using best practices. Bec
 ## Author
 
 - Website - [Ethan Schurkman](https://github.com/ethan-schurkman)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ethan-schurkman](https://www.frontendmentor.io/profile/ethan-schurkman)
