@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/ethan-schurkman/interactive-rating-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://ethan-schurkman.github.io/interactive-rating-component-main/)
 
 ## My process
 
@@ -57,4 +57,4 @@ I often harp on the question of am I developing my CSS using best practices. Bec
 ## Author
 
 - Website - [Ethan Schurkman](https://github.com/ethan-schurkman)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ethan-schurkman](https://www.frontendmentor.io/profile/ethan-schurkman)
