@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/ethan-schurkman/interactive-rating-component-main)
-- Live Site URL: [Github Pages](https://www.frontendmentor.io/profile/ethan-schurkman)
+- Live Site URL: [Github Pages](https://ethan-schurkman.github.io/interactive-rating-component-main/)
 
 ## My process
 
